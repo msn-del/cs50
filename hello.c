@@ -1,4 +1,4 @@
 #include <stdio.h>
 
 int main(void){
-     ge
+     g²1234567890°
