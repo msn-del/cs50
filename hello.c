@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
 int main(void){
-     int answer = get_int("10");
-     printf("hello, %s\n",answer);
+     int answer = get_int("10+10");
+     printf("20, %s\n",answer);
 }
