@@ -10,6 +10,7 @@ int main(void){
     if(answer == '+')
     {
         int result = x + y;
+        printf("%i\n",result);
     }
     if(answer == '-')
     {
