@@ -2,6 +2,7 @@
 #include<cs50.h>
 int main(void){
     int num1 = get_int("num1: ");
+    +==+
     if(+)
     {
         int num2 = get_int("num2: ");
