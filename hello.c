@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <cs50.h>
 int main(void){
-    int i == 0
-while(i < 3)
+    int i = 1;
+while(i < 16)
 {
     printf("meow\n");
-    i += 1;
+    i += 2;
 }
 }
