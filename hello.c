@@ -5,10 +5,10 @@ int main(void){
     while(i > 3)
     {
     int x = get_int("x: ");
-    int y = get_int("y: ");
         char answer = get_char("which, symbole,?");
     if(answer == '+')
     {
+        int y = get_int("y: ");
         int result = x + y;
         printf("%i\n",result);
     }
