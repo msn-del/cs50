@@ -11,8 +11,8 @@ int main(void){
     {
      printf("num1 is big than num2 \n");
     }
-    if(num1 = num 2)
+    if(num1 == num2)
     {
-     printf("num1 equal num 2");
+     printf("num1 equal num2 \n");
     }
 }
