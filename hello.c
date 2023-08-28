@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<cs50.h>
 int main(void){
+    int i = 0;
     while(i > 0)
     {
     int x = get_int("x: ");
@@ -12,4 +13,6 @@ int main(void){
         int result = x + y;
         printf("%i\n",result);
     }
+}
+
 }
