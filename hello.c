@@ -2,7 +2,7 @@
 #include<cs50.h>
 int main(void){
     int i = 4;
-    while(i > 3)
+    while(i > 5)
     {
     int x = get_int("x: ");
     int y = get_int("y: ");
