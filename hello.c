@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 int main(void){
-....ptintf("hello, world");
+....printf("hello, world");
 }
