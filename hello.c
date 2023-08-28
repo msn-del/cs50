@@ -7,5 +7,6 @@ int main(void){
     if(answer == 's')
     {
         int result = x + y;
+        printf("%i\n",answer);
     }
 }
