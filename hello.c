@@ -11,6 +11,6 @@ int main(void){
     printf("%i\n", result3  );
     int result4 = num1 / num2;
     printf("%i\n", result4  );
-    int result5 = (num1 + num2);
+    int result5 = (num1²;
     printf("%i\n", result5  );
 }
