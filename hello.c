@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<cs50.h>
 int main(void){
-....printf("hello, world");
+    int num1 = get_int("num1: ");
+    int result = 
 }
