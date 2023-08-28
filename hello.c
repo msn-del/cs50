@@ -3,7 +3,7 @@
 int main(void){
     int num1 = get_int("num1: ");
     string answer = get_string("which, symbole?");
-    if(answer == 's')
+    if(answer)
     {
         int num2 = get_int("num2: ");
     }
