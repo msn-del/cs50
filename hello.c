@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<cs50.h>
 int main(void){
-    string answer = get_string("what's your name,");
-    printf(" hello, %d\n");
+    int x = get_int("x: ")
+    int y = get_int("y: ")
+    string answer = get_string("which, symbole");
+    printf(" hello, %s\n",answer);
 }
