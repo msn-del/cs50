@@ -3,6 +3,7 @@
 int main(void){
     int x = get_int("x: ");
     int y = get_int("y: ");
+    string answer = get_string
     int result = x + y;
-    printf("result \n");
+    printf("%i\n", result );
 }
