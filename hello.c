@@ -3,6 +3,6 @@
 int main(void){
     int x = get_int("x: ")
     int y = get_int("y: ")
-    string answer = get_string("which, symbole");
-    printf(" hello, %s\n",answer);
+    int answer = get_int("which, symbole");
+    printf("%i\n",answer);
 }
