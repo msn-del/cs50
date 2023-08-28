@@ -6,8 +6,8 @@ int main(void){
     {
         printf("hello\n");
     }
-    else if( c == s || c == S)
+    else if( c == 's' || c == 'S')
     {
-        printf("GOOD BYE\n");
+        printf("good bye\n");
     }
 }
