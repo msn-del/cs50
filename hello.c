@@ -14,16 +14,19 @@ int main(void){
     }
     if(answer == '-')
     {
+        int y = get_int("y: ");
         int result = x - y;
         printf("%i\n",result);
     }
     if(answer == '*')
     {
+        int y = get_int("y: ");
         int result = x * y;
         printf("%i\n",result);
     }
     if(answer == '/')
     {
+        int y = get_int("y: ");
         int result = x / y;
         printf("%i\n",result);
     }
