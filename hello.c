@@ -9,4 +9,19 @@ int main(void){
         int result = x + y;
         printf("%i\n", result);
     }
+    if(answer == '-')
+    {
+        int result = x - y;
+        printf("%i\n", result);
+    }
+    if(answer == '*')
+    {
+        int result = x * y;
+        printf("%i\n", result);
+    }
+    if(answer == '/')
+    {
+        int result = x / y;
+        printf("%i\n", result);
+    }
 }
