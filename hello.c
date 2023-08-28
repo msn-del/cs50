@@ -1,17 +1,12 @@
 #include<stdio.h>
 #include<cs50.h>
 int main(void){
-    int num1 = get_int("num1: ");
-    int num2 = get_int("num2: ");
-    string answer = get_string("which, symbole?");
-    if(answer == 'd')
+    int x = get_int("x: ");
+    int y = get_int("y: ");
+    string answer = get_string("witch, symbole");
+    if(answer 'x + y')
     {
-    int result = num1 + num2;
+    int result = x + y;
     printf("%i\n", result );
-    }
-    if(answer == 'l')
-    {
-    int result1 = num1 +- num2;
-    printf("%i\n", result1 );
     }
 }
