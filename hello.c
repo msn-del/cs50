@@ -4,7 +4,8 @@ int main(void){
     int i = 1;
 while(i < 16)
 {
-    int("meow\n");
+    int num1 = get_int("num1: ");
+    int num2 = get_int("num2: ");
     i += 2;
 }
 }
