@@ -2,7 +2,7 @@
 #include<cs50.h>
 int main(void){
     int i = 4;
-    while(i > 5)
+    while(i > 3)
     {
     int x = get_int("x: ");
     int y = get_int("y: ");
@@ -10,7 +10,6 @@ int main(void){
     if(answer == '+')
     {
         int result = x + y;
-        printf("%i\n",result);
     }
     if(answer == '-')
     {
