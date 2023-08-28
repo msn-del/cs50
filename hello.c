@@ -4,7 +4,7 @@ int main(void){
     int i = 1;
 while(i < 16)
 {
-    printf("meow\n");
+    int("meow\n");
     i += 2;
 }
 }
