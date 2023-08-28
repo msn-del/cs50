@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <cs50.h>
 int main(void){
-    int num1 = get_int ("num1: ");
-    if(num1 % 2 == 0)
+    char c= get_char("do you agree?");
+    if( c == 'y' || c == 'Y')
     {
-        printf("even\n");
+        printf("hello\n");
     }
-    else{
-        printf("odd\n");
+    else if( c == s || c == S)
+    {
+        printf("GOOD BYE\n");
     }
 }
