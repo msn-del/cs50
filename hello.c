@@ -2,7 +2,7 @@
 #include<cs50.h>
 int main(void){
     int x == 0
-    for(int i =0 ; i < 5 ; i++)
+    for(int i = 0 ; i < 5 ; i++)
     {
         int restult1 = x + 2;
         printf("%i\n", result1)
