@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<cs50.h>
-void sum(int x + n ){
+void sum(int result ){
+    int result = x + y
 
 }
 int main(void){
