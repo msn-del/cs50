@@ -1,11 +1,9 @@
 #include<stdio.h>
 #include<cs50.h>
 int main(void){
-    int x == 0
-    for(int i = 0 ; i < 5 ; i++)
+    for(int i = 0 ; i <= 10 ; i+=2)
     {
-        int restult1 = x + 2;
-        printf("%i\n", result1)
+        printf("%i\n", i);
 
     }
 }
