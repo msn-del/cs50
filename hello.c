@@ -3,5 +3,5 @@
 int main(void){
      float salaire = get_float("salaire price: ");
      float sale = salaire * .85;
-     printf(" %.000f\n", sale);
+     printf(" %.f\n", sale);
 }
