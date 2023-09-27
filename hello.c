@@ -1,18 +1,12 @@
 #include<stdio.h>
 #include<cs50.h>
 int main(void){
-     int x = get_int("what's x? ");
-     int y = get_int("what's y? ");
-     if (x < y)
+     string x = get_string("are you ok? ");
+     if (x == "YES" || x == "Yes" || x == "yes")
      {
-          printf("x is less than y\n");
+          printf("that's what i want\n");
      }
-     else if (x > y)
+     else if (x == "No" || x == "No" || x == "no" )
      {
-          printf("x is greater than y\n");
+          printf("what's the problem?\n");
      }
-     else
-     {
-         printf("x is equal to y\n");
-     }
-}
