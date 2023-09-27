@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<cs50.h>
-int main(void){
+int main(void)
+{
      string x = get_string("are you ok? ");
      if (x == "YES" || x == "Yes" || x == "yes")
      {
@@ -10,3 +11,4 @@ int main(void){
      {
           printf("what's the problem?\n");
      }
+}
