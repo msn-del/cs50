@@ -6,7 +6,10 @@ int main(void){
      int x = get_int("x =");
      char s = get_char("which symbole?");
      int y = get_int("y =");
-     int result = x + y || x - y || x * y || x / y;
+     int result = x + y;
+     int result = x - y;
+     int result = x * y;
+     int result = x / y;
           if (s == '+')
           {
                printf("%i\n",result);
