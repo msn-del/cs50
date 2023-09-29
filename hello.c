@@ -4,11 +4,9 @@ int main(void){
      int x = get_int("what's the value of x?");
      char s = get_char("which symbole?");
      int y = get_int("what's the value of y?");
-     while(true)
-     {
+     int result = x + y;
           if (s == '+')
           {
-               printf("%i,\n");
+               printf("result %i\n");
 
-     }
 }
