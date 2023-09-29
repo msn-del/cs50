@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<cs50.h>
 int main(void){
+     while (true)
+     {
      int x = get_int("what's the value of x?");
      char s = get_char("which symbole?");
      int y = get_int("what's the value of y?");
@@ -8,8 +10,6 @@ int main(void){
      int result2 = x - y;
      int result3 = x * y;
      int result4 = x / y;
-     while (true)
-     {
           if (s == '+')
           {
                printf("%i\n",result1);
