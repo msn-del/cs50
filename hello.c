@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<cs50.h>
 int main(void){
-     string answer = get_char("are you ok? ");
+     string answer = get_string("are you ok? ");
      if (answer == "yes")
      {
           printf("that's what i want\n");
