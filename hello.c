@@ -7,6 +7,9 @@ int main(void){
      int result = x + y;
           if (s == '+')
           {
-               printf(",%i result\n");
+               printf("%i\n",result);
+
+          }
+
 
 }
