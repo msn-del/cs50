@@ -8,10 +8,7 @@ int main(void){
      {
           if (s == '+')
           {
-               printf("x + y\n");
+               printf(" %i,x + y\n");
 
      }
 }
-
-}
-
