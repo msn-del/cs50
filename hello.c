@@ -1,10 +1,8 @@
 #include<stdio.h>
 #include<cs50.h>
 int main(void){
-      for (int i = 0;i <
-     while (i <= 5)
+      for (int i = 0; i < 5; i++)
      {
           printf("meaow\n");
-          i = i + 1;
      }
 }
