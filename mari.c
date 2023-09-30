@@ -7,10 +7,10 @@ int main (void)
     {
          n = get_int ("size:");
     }
-    for( int i = 0; i < 5; i++)
+    for( int i = 0; i < n; i++)
     {
      printf("#");
-     for( int j = 0; j < 5; j++)
+     for( int j = 0; j < n; j++)
     {
      printf("#");
     }
