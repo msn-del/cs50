@@ -3,9 +3,8 @@
 int main (void)
 {
     int n = get_int ("size:");
-    while(true)
+    while(n < 1)
     {
-        if(n < 0)
          n = get_int ("size:");
     }
     for( int i = 0; i < 5; i++)
