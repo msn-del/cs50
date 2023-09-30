@@ -2,7 +2,12 @@
 #include <cs50.h>
 int main (void)
 {
-    int n = 5;
+    int n = get_int ("size:");
+    while(true)
+    {
+        if(n < 0)
+         n = get_int ("size:");
+    }
     for( int i = 0; i < 5; i++)
     {
      printf("#");
