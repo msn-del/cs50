@@ -4,7 +4,7 @@ int main(void){
      while (true)
      {
      int x;
-     char s;
+     char s'\0';
      int y;
      int result1 = x + y;
      int result2 = x - y;
