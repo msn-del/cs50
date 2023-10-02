@@ -3,9 +3,9 @@
 int main(void){
      while (true)
      {
-     int x;
-     char s'\0';
-     int y;
+     int x = get_int("x =");
+     char s = get_int("symbole =");;
+     int y = get_int("y =");;
      int result1 = x + y;
      int result2 = x - y;
      int result3 = x * y;
