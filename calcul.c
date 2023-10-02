@@ -6,10 +6,10 @@ int main(void){
      int x = get_int("x =");
      char s = get_int("symbole =");;
      int y = get_int("y =");;
-     int result1;
-     int result2;
-     int result3;
-     int result4;
+     int result1 = x + y;
+     int result2 = x - y;
+     int result3 = x * y;
+     int result4 = x / y;
           do
           {
                printf("%i\n",result1);
