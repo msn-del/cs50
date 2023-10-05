@@ -4,7 +4,7 @@ int main (void)
      {
           while (true)
           {
-          int x = get_int("x =");
+          string x = get_string("opperation =");
           char s = get_char("symbole:");
           int y = get_int("y =");
             if (s == '+')
