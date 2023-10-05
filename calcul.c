@@ -1,5 +1,3 @@
-#include<stdio.h>
-#include<cs50.h>
 int main (void){
      while (true)
      {
@@ -23,5 +21,6 @@ int main (void){
                printf("%i\n",x / y);
           }
      }
-
+#include<stdio.h>
+#include<cs50.h>
 }
