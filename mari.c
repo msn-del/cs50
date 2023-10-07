@@ -4,7 +4,7 @@ int main (void)
 {
     while (true)
     {
-    int n = get_int ("size:");
+        int n = get_int ("size:");
     while(n < 1)
     {
          n = get_int ("size:");
@@ -17,5 +17,6 @@ int main (void)
      printf("#");
     }
     printf("#\n");
+    }
     }
 }
