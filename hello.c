@@ -4,10 +4,8 @@ int main (void)
 {
           while (true)
           {
-               int z
-          int x = get_int("x =");
-          char s = get_char("symbole:");
-          int y = get_int("y =");
+               int z = get_int("number of ints =");
+               for(i = 0; i < z; i++)
             if (s == '+')
           {
                printf("%i\n",x + y);
