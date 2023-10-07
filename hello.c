@@ -5,25 +5,26 @@ int main (void)
           while (true)
           {
                int z = get_int("number of ints =");
-               for(i = 0; i < z; i++)
+               for( int i = 0; i < z; i++)
                {
-                    int x = 
+                    int x = get_int("x =");
                }
+               char s = get_char("symbole :");
             if (s == '+')
           {
-               printf("%i\n",x + y);
+               printf("%i\n",x);
           }
             if (s == '-')
           {
-               printf("%i\n",x - y);
+               printf("%i\n",x);
           }
             if (s == '*')
           {
-               printf("%i\n",x * y);
+               printf("%i\n",x);
           }
              if (s == '/')
           {
-               printf("%i\n",x / y);
+               printf("%i\n",x);
           }
 
           }
