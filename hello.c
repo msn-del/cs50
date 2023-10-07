@@ -15,7 +15,7 @@ int main (void)
            {
                if (s == '+')
           {
-               printf("%i\n",x );
+               printf("%i",x + );
           }
             if (s == '-')
           {
