@@ -6,6 +6,9 @@ int main (void)
           {
                int z = get_int("number of ints =");
                for(i = 0; i < z; i++)
+               {
+                    int x = 
+               }
             if (s == '+')
           {
                printf("%i\n",x + y);
