@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<cs50.h>
 int main (void)
-     {
+{
           while (true)
           {
-          int x = get_int("opperation =");
+          int x = get_int("x =");
           char s = get_char("symbole:");
           int y = get_int("y =");
             if (s == '+')
@@ -23,7 +23,6 @@ int main (void)
           {
                printf("%i\n",x / y);
           }
-
 
           }
 
