@@ -11,7 +11,7 @@ int main (void)
      x = get_int("x =");
                }
                char s = get_char("symbole :");
-               // while
+               // for()
             if (s == '+')
           {
                printf("%i\n",x +);
