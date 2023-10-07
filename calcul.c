@@ -4,6 +4,7 @@ int main (void)
 {
           while (true)
           {
+               for()
           int x = get_int("x =");
           char s = get_char("symbole:");
           int y = get_int("y =");
