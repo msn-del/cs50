@@ -11,10 +11,11 @@ int main (void)
      x = get_int("x =");
                }
                char s = get_char("symbole :");
-               // for()
-            if (s == '+')
+           for( int i = 0; i < z; i++)
+           {
+               if (s == '+')
           {
-               printf("%i\n",x +);
+               printf("%i\n",x );
           }
             if (s == '-')
           {
@@ -31,4 +32,5 @@ int main (void)
 
           }
 
+           }
 }
