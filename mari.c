@@ -2,6 +2,8 @@
 #include <cs50.h>
 int main (void)
 {
+    while (true)
+    {
     int n = get_int ("size:");
     while(n < 1)
     {
