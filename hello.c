@@ -6,7 +6,8 @@ int main (void)
           {
     int z = get_int("number of ints =");
     int x;
-               for( int i = 0; i < z; i++)
+    int l = ("");
+            for( int i = 0; i < z; i++)
                {
      x = get_int("x =");
                }
@@ -15,19 +16,19 @@ int main (void)
            {
                if (s == '+')
           {
-              z ;printf("%i",x);
+              printf("%i",l);
           }
             if (s == '-')
           {
-               printf("%i\n",x);
+               printf("%i\n",l);
           }
             if (s == '*')
           {
-               printf("%i\n",x);
+               printf("%i\n",l);
           }
              if (s == '/')
           {
-               printf("%i\n",x);
+               printf("%i\n",l);
           }
 
           }
