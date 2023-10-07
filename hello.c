@@ -5,9 +5,10 @@ int main (void)
  while (true)
           {
     int z = get_int("number of ints =");
+    int x;
                for( int i = 0; i < z; i++)
                {
-    int x = get_int("x =");
+     x = get_int("x =");
                }
                char s = get_char("symbole :");
             if (s == '+')
