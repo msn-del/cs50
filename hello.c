@@ -13,7 +13,7 @@ int main (void)
                char s = get_char("symbole :");
             if (s == '+')
           {
-               printf("%i\n",z);
+               printf("%i\n",x +);
           }
             if (s == '-')
           {
