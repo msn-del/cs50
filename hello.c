@@ -13,7 +13,7 @@ int main (void)
           int sum = 0;
           for( i = 0;i < num; i++)
           {
-               sum += array[i];
+               sum + array[i];
           }
      }
      printf("%i\n",opperation);
