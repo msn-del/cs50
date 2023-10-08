@@ -5,10 +5,10 @@ int main (void)
      int oppearation(int array[]);
      int num = get_int("number of ints :");
      char symb = get_int("which symbole :");
-     int score[num];
+     int x[num];
      for(int i = 0;i < num; i++)
      {
-          int x = get_int("x =");
+          x[i] = get_int("x =");
      int opperation(int array[]);
           int sum = 0;
           for( i = 0;i < num; i++)
