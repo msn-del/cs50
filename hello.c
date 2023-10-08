@@ -14,7 +14,7 @@ int main (void)
           int sum = 0;
           for(int i = 0;i < num;i++)
           {
-               sum = sum + array[i]
+               sum += sum + array[i]
           }
      }
      printf("%i\n",opperation);
