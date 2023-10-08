@@ -12,7 +12,7 @@ int main (void)
      }
      int opperation(int array[]);
           int sum = 0;
-          for( i = 0;i < num; i++)
+          for(int i = 0;i < num; i++)
           {
                sum + array[i];
           }
