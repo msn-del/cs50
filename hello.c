@@ -9,7 +9,7 @@ int main (void)
      for(int i = 0;i < num; i++)
      {
           int x = get_int("x =");
-     int opperation( int array[]);
+     int opperation(int array[]);
           int sum = 0;
           for( i = 0;i < num; i++)
           {
