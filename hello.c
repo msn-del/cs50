@@ -2,15 +2,15 @@
 #include<cs50.h>
 int main (void)
 {
-     int oppearation(array[])
-     int num = ("number of ints:");
-     char symb = ("which symbole:");
-     int score[num]
+     int oppearation(int array[]);
+     int num = get_int("number of ints :");
+     char symb = get_int("which symbole :");
+     int score[num];
      for( int i = 0;i < num;i++)
      {
           int x = get_int("x =");
      }
-     int opperation(array[])
+     int opperation( int array[])
      {
           int sum = 0;
           for(int i = 0;i < num;i++)
