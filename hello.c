@@ -9,12 +9,12 @@ int main (void)
      for(int i = 0;i < num; i++)
      {
           x[i] = get_int("x =");
+     }
      int opperation(int array[]);
           int sum = 0;
           for( i = 0;i < num; i++)
           {
                sum + array[i];
           }
-     }
      printf("%i\n",opperation);
 }
