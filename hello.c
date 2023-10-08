@@ -2,18 +2,18 @@
 #include<cs50.h>
 int main (void)
 {
+     const int N = 3;
      int oppearation(int array[]);
-     int num = get_int("number of ints :");
      char symb = get_int("which symbole :");
-     int x[num];
-     for(int i = 0;i < num; i++)
+     int x[N];
+     for(int i = 0;i < N; i++)
      {
           x[i] = get_int("x =");
      }
      int opperation(int array[]);
      {
           int sum = 0;
-          for(int i = 0;i < num; i++)
+          for(int i = 0;i < N; i++)
           {
                sum + array[i];
           }
