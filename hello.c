@@ -10,8 +10,7 @@ int main (void)
      {
           int x = get_int("x =");
      }
-     int opperation( int array[])
-     {
+     int opperation( int array[]);
           int sum = 0;
           for(int i = 0;i < num;i++)
           {
