@@ -11,9 +11,9 @@ int main (void)
           int x = get_int("x =");
      int opperation( int array[]);
           int sum = 0;
-          for(int i = 0;i < num; i++)
+          for( i = 0;i < num; i++)
           {
-           sum += array[i];
+               sum += array[i];
           }
      }
      printf("%i\n",opperation);
