@@ -5,7 +5,7 @@ int main (void)
  while (true)
           {
     int z = get_int("number of ints =");
-    int x;
+    int x(array[x]);
             for( int i = 0; i < z; i++)
                {
      x = get_int("x =");
@@ -15,7 +15,7 @@ int main (void)
            {
                if (s == '+')
           {
-              printf("%i\n",x + x + x +...x)
+              printf("%i\n",)
           }
             if (s == '-')
           {
