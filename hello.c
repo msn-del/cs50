@@ -2,35 +2,33 @@
 #include<cs50.h>
 int main (void)
 {
- while (true)
-          {
-    int z = get_int("number of ints =");
-    int x(array[x]);
+    while (true)
+     {
+        int z = get_int("number of ints =");
+        char s = get_char("symbole :");
             for( int i = 0; i < z; i++)
-               {
-     x = get_int("x =");
+         {
+                   x = get_int("x =");
                }
-               char s = get_char("symbole :");
-           for( int i = 0; i < z; i++)
-           {
-               if (s == '+')
+            for( int i = 0; i < z; i++)
           {
+                   if (s == '+')
+               {
               printf("%i\n",)
-          }
+               }
             if (s == '-')
-          {
+               {
                printf("%i\n",x);
-          }
+               }
             if (s == '*')
-          {
+               {
                printf("%i\n",x);
-          }
+               }
              if (s == '/')
-          {
+               {
                printf("%i\n",x);
-          }
+               }
+         }
 
-          }
-
-           }
+      }
 }
