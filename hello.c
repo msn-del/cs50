@@ -5,6 +5,7 @@ int main (void)
      int oppearation(array[])
      int num = ("number of ints:");
      char symb = ("which symbole:");
+     int score[num]
      for( int i = 0;i < num;i++)
      {
           int x = get_int("x =");
@@ -17,4 +18,5 @@ int main (void)
                sum = sum + array[i]
           }
      }
+     printf("%i\n",opperation);
 }
