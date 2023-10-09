@@ -1,13 +1,13 @@
 #include<stdio.h>
 #include<cs50.h>
 float average(float array[]);
+const int N = 3;
 int main (void)
 {
-    int a = get_int("number of ints: ");
-    int x[a];
-    for( int i = 0; i < a; i++)
+    int scores[N];
+    for( int i = 0; i < N; i++)
     {
-        x[i] = get_int("x =");
+        scores[i] = get_int("score: ");
         printf("opperation: %i\n", opperation(x));
     }
     int opperation(int array[]);
