@@ -15,4 +15,5 @@ int main (void)
     {
         z += array[i];
     }
+    return z
 }
