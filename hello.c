@@ -12,14 +12,11 @@ int main (void)
     }
     int opperation(int array[]);
     {
-        
-    }
-
         int z = 0;
     for(int i = 0; i < a; i++)
 
         z += array[i];
 
     return z;
-
+    }
 }
