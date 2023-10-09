@@ -15,7 +15,7 @@ int main (void)
     printf("average: %f\n", average(scores));
 }
 
-float average(int array[]);
+float average(int array[])
 {
         int sum = 0;
     for(int i = 0; i < N; i++)
