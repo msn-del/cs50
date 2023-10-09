@@ -8,9 +8,8 @@ int main (void)
     for( int i = 0; i < a; i++)
     {
         x[i] = get_int("x =");
+        printf("opperation: %i\n", opperation(x));
     }
-    char y = get_char("which symbole: ");
-    printf("opperation: %i\n", opperation(x));
     int opperation(int array[]);
     int z = 0;
     for(int i = 0; i < a; i++)
