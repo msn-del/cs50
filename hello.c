@@ -1,8 +1,9 @@
 #include<stdio.h>
 #include<cs50.h>
 
-float average(float array[]);
 const int N = 3;
+
+float average(float array[]);
 
 int main (void)
 {
