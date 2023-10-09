@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<cs50.h>
-int opperation(int array[]);
+float average(float array[]);
 int main (void)
 {
     int a = get_int("number of ints: ");
