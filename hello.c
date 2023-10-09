@@ -7,7 +7,7 @@ int main (void)
     int x[a];
     for( int i = 0; i < a; i++)
     {
-         = get_int("x =");
+        x[i] = get_int("x =");
     }
     char y = get_char("which symbole: ");
     printf("opperation: %i\n", opperation(x));
