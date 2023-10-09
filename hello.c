@@ -10,7 +10,9 @@ int main (void)
     }
     char y = get_char("which symbole: ");
     int opperation(int array[]);
-    
+    int z = 0;
     for(int i = 0; i < a; i++)
-
+    {
+        z += array[i];
+    }
 }
