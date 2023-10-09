@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<cs50.h>
 
-const int N = 3;
+int n = get_int("number of ints: ");
 
 float average(int array[]);
 
