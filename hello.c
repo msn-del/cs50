@@ -3,7 +3,7 @@
 
 const int N = 3;
 
-float average(float array[]);
+float average(int array[]);
 
 int main (void)
 {
@@ -15,7 +15,7 @@ int main (void)
     printf("average: %f\n", average(scores));
 }
 
-float average(float array[]);
+float average(int array[]);
 {
         int sum = 0;
     for(int i = 0; i < N; i++)
