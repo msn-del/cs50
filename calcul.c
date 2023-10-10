@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<cs50.h>
 int N = 3;
-float average(int array[]);
+float average(int array[])
 int main (void)
 {
     int scores[N];
