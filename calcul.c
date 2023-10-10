@@ -17,10 +17,10 @@ int main (void)
     char y = get_char("symbole: ");
     if(y == '+')
     {
-        for( int i = 0; i < N; i++)
-    {
-        sum += array[i];
+      for( int i = 0; i < N; i++)
+        {
+            sum += array[i];
+        }
     }
     return ( sum );
-    }
 }
