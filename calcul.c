@@ -28,7 +28,7 @@ int main (void)
     {
       for( int i = 0; i < N; i++)
         {
-             array[i] -= sum +1;
+             array[i] =- sum ;
         }
     }
 
