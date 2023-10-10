@@ -4,7 +4,7 @@ int N = 3;
 int opperation(int array[]);
 int main (void)
 {
-    int x[N];
+        int x[N];
     for( int i = 0; i < N; i++)
     {
        x[i] = get_int("scores: ");
@@ -13,7 +13,9 @@ int main (void)
 }
    int opperation(int array[])
 {
-    int sum = 0;
+    while(true)
+    {
+        int sum = 0;
     char y = get_char("symbole: ");
     if(y == '+')
     {
@@ -26,7 +28,7 @@ int main (void)
     {
       for( int i = 0; i < N; i++)
         {
-            sum += array[i];
+            sum -= array[i];
         }
     }
 
@@ -34,7 +36,7 @@ int main (void)
     {
       for( int i = 0; i < N; i++)
         {
-            sum += array[i];
+            sum *= array[i];
         }
     }
 
@@ -42,8 +44,9 @@ int main (void)
     {
       for( int i = 0; i < N; i++)
         {
-            sum += array[i];
+            sum /= array[i];
         }
     }
     return ( sum );
+    }
 }
