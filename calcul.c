@@ -15,20 +15,20 @@ int main (void)
 {
     while(true)
     {
-        int sum = 0;
+        int sum = 1;
     char y = get_char("symbole: ");
     if(y == '+')
     {
       for( int i = 0; i < N; i++)
         {
-            sum += array[i];
+            sum += array[i] -1;
         }
     }
     if(y == '-')
     {
       for( int i = 0; i < N; i++)
         {
-            sum -= array[i];
+             array[i] -= sum -1;
         }
     }
 
@@ -44,7 +44,7 @@ int main (void)
     {
       for( int i = 0; i < N; i++)
         {
-            sum /= array[i];
+         array[i] /= sum;
         }
     }
     return ( sum );
