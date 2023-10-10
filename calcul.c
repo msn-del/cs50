@@ -4,12 +4,12 @@ int N = 3;
 float average(int array[]);
 int main (void)
 {
-    int scores[];
+    int scores[N];
     for( int i = 0; i < N; i++)
     {
-        scores = get_int("scores: ");
+       scores[i] = get_int("scores: ");
     }
-       printf("average:\n",average(scores));
+       printf("average: %f\n",average(scores));
 }
 float average(int array[])
 {
