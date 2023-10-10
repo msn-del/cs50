@@ -22,5 +22,28 @@ int main (void)
             sum += array[i];
         }
     }
+    if(y == '-')
+    {
+      for( int i = 0; i < N; i++)
+        {
+            sum += array[i];
+        }
+    }
+
+    if(y == '*')
+    {
+      for( int i = 0; i < N; i++)
+        {
+            sum += array[i];
+        }
+    }
+
+    if(y == '/')
+    {
+      for( int i = 0; i < N; i++)
+        {
+            sum += array[i];
+        }
+    }
     return ( sum );
 }
