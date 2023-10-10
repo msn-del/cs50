@@ -14,9 +14,10 @@ int main (void)
    int opperation(int array[])
 {
     int sum = 0;
+    char y = get_char("symbole: ");
     for( int i = 0; i < N; i++)
     {
         sum += array[i];
     }
-    return ( sum + N);
+    return ( sum );
 }
