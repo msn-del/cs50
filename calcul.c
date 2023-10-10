@@ -15,9 +15,12 @@ int main (void)
 {
     int sum = 0;
     char y = get_char("symbole: ");
-    for( int i = 0; i < N; i++)
+    if(y == '+')
+    {
+        for( int i = 0; i < N; i++)
     {
         sum += array[i];
     }
     return ( sum );
+    }
 }
