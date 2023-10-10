@@ -9,7 +9,7 @@ int main (void)
     {
        x[i] = get_int("scores: ");
     }
-       printf("opperation: %f\n",opperation(x));
+       printf("opperation: %i\n",opperation(x));
 }
    int opperation(int array[])
 {
@@ -18,5 +18,5 @@ int main (void)
     {
         sum += array[i];
     }
-    return ( sum / N);
+    return ( sum + N);
 }
