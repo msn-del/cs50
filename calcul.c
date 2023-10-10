@@ -1,22 +1,22 @@
 #include<stdio.h>
 #include<cs50.h>
 int N = 3;
-float average(int array[])
+int opperation(int array[]);
 int main (void)
 {
-    int scores[N];
+    int x[N];
     for( int i = 0; i < N; i++)
     {
-       scores[i] = get_int("scores: ");
+       x[i] = get_int("scores: ");
     }
-       printf("average: %f\n",average(scores));
+       printf("opperation: %f\n",opperation(x));
 }
-float average(int array[])
+   int opperation(int array[])
 {
     int sum = 0;
     for( int i = 0; i < N; i++)
     {
         sum += array[i];
     }
-    return ( sum / N).
+    return ( sum / N);
 }
