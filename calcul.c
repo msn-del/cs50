@@ -2,7 +2,7 @@
 #include<cs50.h>
 #include<string.h>
 
-int main (void)
+int main (int argc, string argv[])
 {
     string s = get_string("Before: ");
     printf("After: ");
