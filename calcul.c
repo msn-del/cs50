@@ -2,7 +2,10 @@
 #include<cs50.h>
 #include<string.h>
 
-int main (int argc, string argv[])
+int main(void)
 {
-        printf("hello, %s\n", argv[4]);
+    for (int i = 0; i < 100; i + 10 )
+    {
+        printf("i love you\n");
+    }
 }
