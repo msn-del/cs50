@@ -4,16 +4,12 @@
 
 int main (int argc, string argv[])
 {
-    printf("After: ");
-    for( int i = 0; i < strlen(s); i++)
+    if ( argc != 2 )
     {
-        if(s[i] >= 'a' && s[i] <='z')
-        {
-            printf("%c", s[i] -32);
-        }
-        else
-        {
-            printf("%c", s[i]);
-        }
+        printf("error\n");
+    }
+    else
+    {
+        printf("hello, %s\n" argv[1] );
     }
 }
