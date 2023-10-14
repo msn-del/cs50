@@ -7,17 +7,15 @@ int main(void)
   int number = 1;
   int numbers[number + 2];
   int n = get_int("number: ");
-  for(int i = 0; i < 10; i++)
+  for(int i = 2; i > 0; i++)
   {
-     if (numbers[i] == n)
-      {
-        printf("found\n");
+    if (numbers[i] == n)
+    {
+       printf("found\n");
          return 0;
-      }
-     else
-       {
-            printf("not found\n");
-            return 1;
-       }
+    }
+     printf("not found\n");
+    return 1;
   }
+
 }
