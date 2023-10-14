@@ -4,10 +4,9 @@
 
 int main(void)
 {
-  int number = 1;
-  int numbers[number + 2];
+  int numbers[10 + 2];
   int n = get_int("number: ");
-  for(int i = 2; i > 0; i++)
+  for(int i = 0; i < 10; i++)
   {
     if (numbers[i] == n)
     {
