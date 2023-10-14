@@ -9,6 +9,7 @@ int main(void)
   int n = get_int("number: ");
   for(int i = 0; i < 10; i++)
   {
+    sum += numbers[i];
     if (numbers[i] == n)
     {
        printf("found\n");
