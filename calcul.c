@@ -4,14 +4,14 @@
 
 int main(void)
 {
-    while(true)
+  int number = 1;
+  int numbers[number + 2];
+  while(true)
     {
-        int numbers = 1;
-    long number[numbers + 2];
-    long n = get_long("number: ");
-    for(int i = 0; i < 10; i++)
-    {
-        if (number[i] == n)
+         int n = get_int("number: ");
+         for(int i = 0; i < 10; i++)
+               {
+                     if (numbers[i] == n)
         {
             printf("found\n");
             return 0;
