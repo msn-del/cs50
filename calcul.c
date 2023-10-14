@@ -9,12 +9,15 @@ int main(void)
   int n = get_int("number: ");
   for(int i = 0; i < 10; i++)
   {
-      if (numbers[i] == n)
-          {
-            printf("found\n");
-            return 0;
-          }
+     if (numbers[i] == n)
+      {
+        printf("found\n");
+         return 0;
+      }
+     else
+       {
+            printf("not found\n");
+            return 1;
+       }
   }
-    printf("not found\n");
-    return 1;
 }
