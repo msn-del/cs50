@@ -4,7 +4,8 @@
 
 int main(void)
 {
-  int numbers[] = {10 + 2};
+    int sum = 2;
+  int numbers[sum + 2];
   int n = get_int("number: ");
   for(int i = 0; i < 10; i++)
   {
