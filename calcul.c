@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    int sum = 0;
+    int sum = 2;
   int numbers[sum + 2];
   int n = get_int("number: ");
   for(int i = 0; i < 10; i++)
@@ -18,5 +18,4 @@ int main(void)
      printf("not found\n");
     return 1;
   }
-
 }
