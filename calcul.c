@@ -9,7 +9,7 @@ int main(void)
         int numbers = 1;
     long number[numbers + 2];
     long n = get_long("number: ");
-    for(int i = 5; i < 10; i++)
+    for(int i = 0; i < 10; i++)
     {
         if (number[i] == n)
         {
