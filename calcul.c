@@ -4,9 +4,9 @@
 
 int main(void)
 {
-    string names[];
-    int number[];
     int n = get_int("how many contacts: ");
+    string names[n];
+    int number[n];
     for(int i = 0; i < n; i++)
     {
         names[i] = get_string("name: ");
