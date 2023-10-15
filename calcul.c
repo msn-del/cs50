@@ -1,19 +1,20 @@
 #include<stdio.h>
 #include<cs50.h>
 #include<string.h>
-int numbers[];
-string names[];
+
 int main(void)
 {
+    string names[];
+    int number[];
     int n = get_int("how many contacts: ");
     for(int i = 0; i < n; i++)
     {
-        names[n] = get_string("name: ");
-        numbers[n] = get_int("number: ");
+        names[i] = get_string("name: ");
+        number[i] = get_int("number: ");
     }
     string name = get_string("wich name: ");
     for(int i = 0; i < n; i++)
     {
-        printf("%i\n",numbers[i]);
+        printf("%i\n",number[i]);
     }
 }
