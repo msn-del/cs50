@@ -3,16 +3,17 @@
 #include<string.h>
 int numbers[];
 string names[];
-(
+int main(void)
+{
     int n = get_int("how many contacts: ");
     for(int i = 0; i < n; i++)
     {
-        names[i] = get_string("name: ");
-        numbers[i] = get_int("number: ");
+        names[n] = get_string("name: ");
+        numbers[n] = get_int("number: ");
     }
-)
-int main(void)
-{
     string name = get_string("wich name: ");
-    printf("%i\n",number[i]);
+    for(int i = 0; i < n; i++)
+    {
+        printf("%i\n",numbers[i]);
+    }
 }
