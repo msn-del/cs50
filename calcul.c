@@ -1,15 +1,10 @@
 #include<stdio.h>
 #include<cs50.h>
-#include<string.h>
-
-typedef stract
+int main (void)
 {
-    string names;
-    string numbers;
-}
-person;
-
-int main(void)
-{
-    int n = 
+    int n = get_int("how many contacts: ");
+    for(int i = 0; i < n; i++)
+    {
+       string
+    }
 }
