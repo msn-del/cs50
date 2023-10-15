@@ -13,8 +13,8 @@ int main(void)
         number[s] = get_int("number: ");
     }
     string name = get_string("wich name: ");
-    for(int i = 0; i < 1; i++)
+    for(int i = 0; i < n; i++)
     {
-        printf("%i\n",number[s]);
+        printf("%i\n",number[i]);
     }
 }
