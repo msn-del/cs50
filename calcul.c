@@ -14,5 +14,4 @@ int main(void)
     }
         string name = get_string("wich name: ");
             printf("%i\n",number[i]);
-    }
 }
