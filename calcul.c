@@ -12,9 +12,7 @@ int main(void)
         names[i] = get_string("name: ");
         number[i] = get_int("number: ");
     }
-    string name = get_string("wich name: ");
-    for(int i = 0; i < 1; i++)
-        {
+        string name = get_string("wich name: ");
             printf("%i\n",number[i]);
-        }
+    }
 }
