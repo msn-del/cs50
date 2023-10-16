@@ -4,11 +4,17 @@
 
 int main(void)
 {
-    string names[4] = {"simo", "karima" , "salah" ,"nacer eddine"};
-    string numbers[4] = {"0619981459", "0630201514", "0628241689", "0694160822"};
-    string name = get_string("which name: ");
+    int n = get_int("how many contacts: ");
+    string names[n];
+    int numbers[n];
     for (int i = 0;i < 4; i++)
     {
+      while(i < n)
+      {
+         names[n] = get_string("name: ");
+         int number[n] = get_int("number: ");
+      }
+      string name = get string("which name: ")
              if(strcmp(names[i],name) == 0)
              {
                 printf("%s\n",numbers[i]);
