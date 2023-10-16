@@ -13,5 +13,5 @@ int main(void)
              number[n] = get_int("number: ");
     }
     string name = get_string("wich name: ");
-     printf("%i\n",number(names));
+     printf("%i\n",number(name));
 }
