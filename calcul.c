@@ -9,7 +9,7 @@ int main(void)
     int numbers[n];
     for (int i = 0;i < n; i++)
     {
-      while(i < n)
+      for(i = 0;i < n; i++)
       {
          names[n] = get_string("name: ");
          numbers[n] = get_int("number: ");
