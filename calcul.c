@@ -7,14 +7,14 @@ int main(void)
     int n = get_int("how many contacts: ");
     string names[n];
     int number[n];
-    while(true)
+    for (int i = 0;i < n; i++)
     {
-        for(int i = 0; i < n; i++)
-        {
-             names[i] = get_string("name: ");
-             number[i] = get_int("number: ");
-             string name = get_string("wich name: ");
-             printf("%i\n",number[i]);
-        }
+             names[n] = get_string("name: ");
+             number[n] = get_int("number: ");
+             for ( i = 0;i < n; i++)
+                 {
+                string name = get_string("wich name: ");
+                printf("%i\n",number[n]);
+                 }
     }
 }
