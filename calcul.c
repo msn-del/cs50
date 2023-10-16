@@ -11,10 +11,7 @@ int main(void)
     {
              names[n] = get_string("name: ");
              number[n] = get_int("number: ");
-             for ( i = 0;i < n; i++)
-                 {
-                string name = get_string("wich name: ");
-                printf("%i\n",number[n]);
-                 }
     }
+    string name = get_string("wich name: ");
+     printf("%i\n",number[n]);
 }
