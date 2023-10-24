@@ -4,4 +4,6 @@
 
 int main(void)
 {
+    int n = 50;
+    print("%p\n", &n);
 }
