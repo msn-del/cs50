@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<ctype.h>
 #include<cs50.h>
 #include<stdlib.h>
 #include<string.h>
@@ -22,4 +23,5 @@ int main(void)
     }
     printf("%s\n", s);
     printf("%s\n", t);
+    free();
 }
