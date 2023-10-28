@@ -3,8 +3,7 @@
 #include<cs50.h>
 #include<stdlib.h>
 #include<string.h>
-
-void swap(int *a, int *b);
+void swap
 int main (void)
 {
     int x = 1;
@@ -12,10 +11,4 @@ int main (void)
     printf("x is %i, y is %i\n", x, y);
     swap(&x, &y);
     printf("x is %i, y is %i\n", x, y);
-}
-void swap(int *a, int *b)
-{
-    int temp = *a;
-    *a = *b;
-    *b = temp;
 }
