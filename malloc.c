@@ -5,6 +5,4 @@ int main(void)
 {
     int n = get_int("n :")
     int *num = malloc(n * sizeof(int));
-    int
-
 }
