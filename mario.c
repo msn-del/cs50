@@ -1,16 +1,16 @@
 #include<stdio.h>
 #include<cs50.h>
 
-int get_n();
-void print_grind(int size);
+int valeur();
+void output(int n);
 
 int main (void)
 {
-    int n = get_n();
-    print_grind(n);
+    int n = valeur();
+    output(n);
 }
 
-int get_n(void)
+int valeur(void)
 {
     int n;
     do
@@ -21,7 +21,7 @@ int get_n(void)
     return n;
 }
 
-void print_grind(int n)
+void output(int n)
 {
     for( int i = 0; i < n; i++)
     {
