@@ -1,7 +1,9 @@
 #include<stdio.h>
 #include<cs50.h>
+
 int valeur();
 void ligne(int size);
+
 int main (void)
 {
     int n = valeur();
