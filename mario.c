@@ -19,6 +19,7 @@ int valeur (void)
     }
     while(n < 1);
 }
+
 void ligne (int size)
 {
     for( int i = 0; i < n; i++)
