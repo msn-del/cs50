@@ -8,7 +8,7 @@ int main (void)
     ligne(n);
 }
 
-int valeur(void)
+int valeur (void)
 {
     int n;
     do
@@ -17,7 +17,7 @@ int valeur(void)
     }
     while(n < 1);
 }
-void ligne(int size)
+void ligne (int size)
 {
     for( int i = 0; i < n; i++)
     {
