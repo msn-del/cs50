@@ -1,16 +1,16 @@
 #include<stdio.h>
 #include<cs50.h>
 
-int valeur();
-void ligne(int size);
+int get_n();
+void print_grind(int size);
 
 int main (void)
 {
-    int n = valeur();
-    ligne(n);
+    int n = get_n();
+    print_grind(n);
 }
 
-int valeur (void)
+int get_n(void)
 {
     int n;
     do
@@ -18,9 +18,10 @@ int valeur (void)
         n = get_int("size: ");
     }
     while(n < 1);
+    return n;
 }
 
-void ligne (int size)
+void print_grind(int n)
 {
     for( int i = 0; i < n; i++)
     {
@@ -28,6 +29,6 @@ void ligne (int size)
          {
             printf("#");
          }
-         printf("\n")
+         printf("\n");
     }
 }
