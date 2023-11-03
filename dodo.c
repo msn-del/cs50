@@ -12,6 +12,8 @@ int get_negative(void)
 {
     do
     {
-        
+        int n = get_int("n: ");
+        return n;
     }
+    while(n < 0);
 }
