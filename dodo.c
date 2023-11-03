@@ -10,9 +10,10 @@ int main (void)
 }
 int get_negative(void)
 {
+    int n;
     do
     {
-        int n = get_int("n: ");
+        n = get_int("n: ");
         return n;
     }
     while(n < 0);
