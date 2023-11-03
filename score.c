@@ -6,6 +6,7 @@ float average(int array[]);
 int main (void)
 {
     n = get_int("n: ");
+
     int scores[n];
     for ( int i = 0; i < n; i++)
     {
@@ -19,7 +20,7 @@ float average(int array[])
     int sum = 0;
     for( int i = 0; i < n; i++)
     {
-        sum = array[i];
+        sum =+ array[i];
     }
-    return sum / (float) n;
+    return sum / n;
 }
