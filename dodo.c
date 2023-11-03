@@ -14,7 +14,7 @@ int get_negative(void)
     do
     {
         n = get_int("n: ");
-        return n;
     }
-    while(n < 0);
+    while(n > 0);
+    return n;
 }
