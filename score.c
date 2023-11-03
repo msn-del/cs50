@@ -3,11 +3,10 @@
 
 int main (void)
 {
-    int n = get_int("n: ");
-    int scores[n];
+    int scores[3];
     for( int i = 0; i < n; i++)
     {
         int scores[i] = get_int("score: ");
     }
-    printf("%f\n", scores[n] / (float) 3);
+     printf("%f\n", scores[i] / (float) 3)
 }
