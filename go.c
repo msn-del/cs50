@@ -10,9 +10,10 @@ int main(void)
     {
         answer = get_string("are you gay? ");
     }
-    while(answer == 'x');
+    while(answer == x);
+    return answer;
     {
-    if(answer == 'y')
+    if(answer == y)
     {
         printf("yes i know it");
     }
