@@ -3,15 +3,15 @@
 
 int main(void)
 {
-    string y = "yeh";
-    string x = "nop";
+    string yes;
+    string no;
     string answer;
     do
     {
         answer = get_string("are you gay? ");
     }
-    while(answer == x);
-    if(answer == y)
+    while(answer == yes);
+    if(answer == no)
     {
         printf("yes i know it");
     }
