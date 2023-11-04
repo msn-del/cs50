@@ -7,7 +7,7 @@ int main(void)
     string answer;
     do
     {
-        answer = get_string("are you gay? ");
+     answer = get_string("are you gay? ");
     }
     while(answer == x);
     if(answer == y)
