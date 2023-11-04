@@ -9,8 +9,9 @@ int main(void)
     {
      answer = get_string("are you gay? ");
     }
-    while(answer == x);
-    if(answer == y)
+    while(answer = x);
+
+    if(answer = y)
     {
         printf("yes i know it");
     }
