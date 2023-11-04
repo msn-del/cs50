@@ -3,8 +3,8 @@
 
 int main(void)
 {
-    string y = "yes";
-    string x = "no";
+    string y = "yeh";
+    string x = "nop";
     string answer;
     do
     {
