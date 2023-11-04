@@ -10,8 +10,8 @@ int main(void)
     {
         answer = get_string("are you gay? ");
     }
-    while(answer == yes);
-    if(answer == no)
+    while(answer == "yes");
+    if(answer == "no")
     {
         printf("yes i know it");
     }
