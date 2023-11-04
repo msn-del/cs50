@@ -1,15 +1,18 @@
 #include<stdio.h>
 #include<cs50.h>
+
 int main(void)
 {
     string y = "yes";
     string x = "no";
-    string answer = get_string("are you gay? ");
-    if(answer == "yes")
+    string answer;
+    do
     {
-     answer = get_string("are you gay? ");
+        answer = get_string("are you gay? ");
     }
-    if(answer == "y")
+    while(answer == 'x');
+    {
+    if(answer == 'y')
     {
         printf("yes i know it");
     }
