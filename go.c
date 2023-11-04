@@ -2,14 +2,14 @@
 #include<cs50.h>
 int main(void)
 {
-    char y = yes';
-    char x = 'no';
+    string y = "yes";
+    string x = "no";
     string answer = get_string("are you gay? ");
-    if(answer == 'x')
+    if(answer == "yes")
     {
      answer = get_string("are you gay? ");
     }
-    if(answer == 'y')
+    if(answer == "y")
     {
         printf("yes i know it");
     }
