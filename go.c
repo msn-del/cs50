@@ -11,8 +11,6 @@ int main(void)
         answer = get_string("are you gay? ");
     }
     while(answer == x);
-    return answer;
-    {
     if(answer == y)
     {
         printf("yes i know it");
