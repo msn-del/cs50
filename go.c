@@ -2,7 +2,7 @@
 #include<cs50.h>
 #include<string.h>
 #include<stdlib.h>
-
+(void)temp
 int main(void)
 {
     string y = "yes";
