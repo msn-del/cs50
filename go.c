@@ -6,13 +6,12 @@ int main(void)
 {
     string y = "yes";
     string n = "no";
-    string answer;
-    do
+    string answer = get_string("are you gay? ");
+    while(answer == "no")
     {
-        answer = get_string("are you gay? ");
+     answer = get_string("are you gay? ");
     }
-    while(answer == y);
-    if(answer == n)
+    if(answer == "yes")
     {
         printf("yes i know it");
     }
