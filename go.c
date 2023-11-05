@@ -2,14 +2,19 @@
 #include<cs50.h>
 #include<string.h>
 #include<stdlib.h>
-string *answer;
+char *answer;
 int main(void)
 {
-    string *question1 = yes;
-    string *question2 = "no";
+    char *question1 = "yes";
+    char *question2 = "no";
     do
     {
-        $answer = get_string("are you gay");
+        answer = get_string("are you gay? ");
     }
-    while(*answer == *question1);
+    while(*answer == *question2);
+
+    if(*answer == *question1)
+    {
+        printf("yes i know it hhhh\n");
+    }
 }
