@@ -4,9 +4,13 @@
 
 int main(void)
 {
-    int numbers[7] = {0, 5, 51, 15, 14, 12, 88};
-    int n = get_int("number: ");
-    for(int i = 0; i < 7; i++)
+    int x = get_int("how many numers?");
+    for(int i =0; i < x; i++)
+    {
+        int numbers[] = get_int("number: ");
+    }
+    int n = get_int("which one: ");
+    for(int i = 0; i < x; i++)
     {
         if(numbers[i] == n)
         {
