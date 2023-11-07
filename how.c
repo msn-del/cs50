@@ -1,0 +1,16 @@
+#include<cs50.h>
+#include<stdio.h>
+#include<string.h>
+
+int main(void)
+{
+    string s = get_string("before: ");
+    printf("after: ")
+    for(int i = 0; i < strlen(s); i++)
+    {
+        if(s[i] >= a && s[i] <= z)
+        {
+            printf("%s", s[i]);
+        }
+    }
+}
