@@ -5,7 +5,7 @@
 int main(void)
 {
     string s = get_string("before: ");
-    printf("after: ")
+    printf("after: ");
     for(int i = 0; i < strlen(s); i++)
     {
         if(s[i] >= a && s[i] <= z)
