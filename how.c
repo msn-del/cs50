@@ -3,12 +3,8 @@
 #include<string.h>
 
 int main(void)
-{
-    int x = get_int("how many numers?");
-    for(int i =0; i < x; i++)
-    {
-        int numbers[] = get_int("number: ");
-    }
+
+       int numbers[] = get_int("number: ");
     int n = get_int("which one: ");
     for(int i = 0; i < x; i++)
     {
