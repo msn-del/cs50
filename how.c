@@ -13,10 +13,7 @@ int main(void)
             printf("found\n");
             return 0;
         }
-        else
-        {
-            printf("404\n");
-        }
-        return 1;
     }
+            printf("404\n");
+        return 1;
 }
