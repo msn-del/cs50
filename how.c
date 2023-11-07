@@ -4,13 +4,19 @@
 
 int main(void)
 {
-    string s = get_string("before: ");
-    printf("after: ");
-    for(int i = 0; i < strlen(s); i++)
+    int numbers[7] = {0, 5, 51, 15, 14, 12, 88};
+    int n = get_int("number: ");
+    for(int i = 0; i < 7; i++)
     {
-        if(s[i] >= 'a' && s[i] <= 'z')
+        if(numbers[i] == n)
         {
-            printf("%c", s[i]);
+            printf("found\n");
+            return 0;
         }
+        else
+        {
+            printf("404\n");
+        }
+        return 1;
     }
 }
