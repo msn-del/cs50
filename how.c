@@ -3,10 +3,10 @@
 #include<string.h>
 
 int main(void)
-
-       int numbers[] = get_int("number: ");
+ {
+        int numbers[] = {54, 16, 14, 88, 59, 87};
     int n = get_int("which one: ");
-    for(int i = 0; i < x; i++)
+    for(int i = 0; i < n; i++)
     {
         if(numbers[i] == n)
         {
