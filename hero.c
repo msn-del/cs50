@@ -6,12 +6,12 @@
 
 int main(void)
 {
-    int x;
-    int array[5] = {5, 16, 12, 17, 16};
-    int n = get_int("which one: ");
+    int n;
+    int x = 2 * n;
+    int array[5] = {5, 16, 12, 17, 18};
     for(int i = 0; i < 5; i++)
     {
-        if(array[i] / 2 == int)
+        if(array[i] / 2 == x )
         {
             printf("%i\n", array[i]);
         }
