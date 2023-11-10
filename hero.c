@@ -6,11 +6,10 @@
 
 int main(void)
 {
-    int array[5] = {5, 16, 12, 17, 18};
-    int n = get_int("n: ");
-    for(int i = 0; i < 5; i++)
+    int array[6] = {5, 16, 12, 17, 18};
+    for(int i = 0; i < 6; i++)
     {
-        if(array[i] / 2 == 1)
+        if(array[i] % 2 == 0)
         {
             printf("%i\n", array[i]);
         }
