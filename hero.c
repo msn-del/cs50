@@ -11,7 +11,7 @@ int main(void)
     int n = get_int("which one: ");
     for(int i = 0; i < 5; i++)
     {
-        if(array[i] == 2 * x);
+        if(array[i] == n)
         {
             printf("%i\n", array[i]);
         }
