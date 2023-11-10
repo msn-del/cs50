@@ -6,8 +6,7 @@
 
 int main(void)
 {
-    int n;
-    int x = 2 * n;
+    int x;
     int array[5] = {5, 16, 12, 17, 18};
     for(int i = 0; i < 5; i++)
     {
