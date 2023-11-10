@@ -7,6 +7,7 @@
 int main(void)
 {
     int array[5] = {5, 16, 12, 17, 18};
+    int n = get_int("n: ");
     for(int i = 0; i < 5; i++)
     {
         if(array[i] / 2 == 1)
