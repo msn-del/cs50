@@ -17,5 +17,5 @@ int main(void)
     {
        answer = get_string("are you gay? ");
     }
-    while(strcmp(answer, question1) == 1);
+    while(strcmp(answer, question2) == 1);
 }
