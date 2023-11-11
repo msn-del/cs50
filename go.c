@@ -13,7 +13,7 @@ int main(void)
     }
     while(*answer == *question2);
 
-    if(*answer == *question1)
+    else(*answer == *question1)
     {
         printf("yes i know it hhhh\n");
     }
