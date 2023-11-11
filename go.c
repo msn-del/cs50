@@ -7,11 +7,7 @@ int main(void)
 {
     char *question1 = "yes";
     char *question2 = "no";
-    do
-    {
         answer = get_string("are you gay? ");
-    }
-    while(*answer == *question2);
 
     if(strcmp(answer, question1) == 0)
     {
