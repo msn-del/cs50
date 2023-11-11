@@ -13,8 +13,12 @@ int main(void)
     }
     while(*answer == *question2);
 
-    else(*answer == *question1)
+    if(strcmp(answer, question1) == 0)
     {
         printf("yes i know it hhhh\n");
+    }
+    else
+    {
+        answer = get_string("are you gay? ");
     }
 }
