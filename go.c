@@ -7,7 +7,6 @@ int main(void)
 {
     string question1 = "yes";
     string question2 = "no";
-    answer = get_string("are you gay? ");
     do
     {
        answer = get_string("are you gay? ");
