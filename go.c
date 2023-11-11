@@ -5,8 +5,8 @@
 char *answer;
 int main(void)
 {
-    char *question1 = "yes";
-    char *question2 = "no";
+    string question1 = "yes";
+    string question2 = "no";
         answer = get_string("are you gay? ");
 
     if(strcmp(answer, question1) == 0)
