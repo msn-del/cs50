@@ -8,14 +8,14 @@ int main(void)
     string question1 = "yes";
     string question2 = "no";
     answer = get_string("are you gay? ");
+    do
+    {
+       answer = get_string("are you gay? ");
+    }
+    while(strcmp(answer, question2) == 0);
 
     if(strcmp(answer, question1) == 0)
     {
         printf("yes i know it hhhh\n");
     }
-    do
-    {
-       answer = get_string("are you gay? ");
-    }
-    while(strcmp(answer, question2) == 1);
 }
