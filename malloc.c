@@ -10,11 +10,11 @@ int main(void)
     for(int i = 0; i < strlen(n) + 1; i++)
     {
         num[i] = n[i];
-    }
 
     if(strlen(num) > 0)
     {
-        num[0] = toupper(num[0]);
+        num[i] = toupper(num[i]);
+    }
     }
     printf("n: %s\n", n);
     printf("num: %s\n", num);
