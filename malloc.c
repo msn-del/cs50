@@ -6,7 +6,12 @@
 int main(void)
 {
     char *n = get_string("n :");
+    if(n == NULL)
+    {
+        return 1;
+    }
     char *num = malloc(strlen(n) + 1 );
+
 //strcpy(num, n);
     for(int i = 0; i < strlen(n) + 1; i++)
     {
