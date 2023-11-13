@@ -9,7 +9,7 @@ int main(void)
     char *num = malloc(strlen(n) + 1 );
     for(int i = 0; i < strlen(n) + 1; i++)
     {
-        num[0] = n[0];
+        num[i] = n[i];
     }
 
     if(strlen(num) > 0)
