@@ -7,7 +7,7 @@ int main(void)
 {
     char *n = get_string("n :");
     char *num = malloc(strlen(n) + 1 );
-    for(int i = 0; i <= strlen(n); i++)
+    for(int i = 0; i < strlen(n) + 1; i++)
     {
         num[0] = n[0];
     }
