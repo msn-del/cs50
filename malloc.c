@@ -24,4 +24,5 @@ int main(void)
     }
     printf("n: %s\n", n);
     printf("num: %s\n", num);
+    free(num);
 }
