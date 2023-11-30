@@ -6,15 +6,15 @@ int main(void)
 {
     int x = 1;
     int y = 2;
-    swap(&x, &y);
     printf("x is: %i\n", x);
     printf("y is: %i\n", y);
+     swap(&x, &y);
     printf("x is: %i\n", x);
     printf("y is: %i\n", y);
 }
 void swap(int *a, int *b)
 {
     int temp = *a;
-    *b = *a;
-    temp = *b;
+    *a = *b;
+    *b = temp;
 }
