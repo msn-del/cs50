@@ -7,12 +7,14 @@ int main(void)
     int x = 1;
     int y = 2;
     swap(&x, &y);
-    printf("x is: y is: %i%i\n", x, y);
-    printf("x is: y is: %i%i\n", x, y);
+    printf("x is: %i\n", x);
+    printf("y is: %i\n", y);
+    printf("x is: %i\n", x);
+    printf("y is: %i\n", y);
 }
 void swap(int *a, int *b)
 {
-    int temp = *a;
+    int temp = *b;
     *a = *b;
-    temp = *b;
+    temp = *a;
 }
