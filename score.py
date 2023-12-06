@@ -1,5 +1,5 @@
-from cs50 import get_float
-n = get_float("how many scores? ")
+from cs50 import
+n = get_doubt("how many scores? ")
 scores = []
 i = 0
 for i in range(n):
