@@ -1,6 +1,7 @@
-n = input("are you gay?")
- while n.lower in ["no"]:
+import from cs50 get_string
+n = get_string("are you gay?")
+ if n.lower in ["no"]:
     n = input("are you gay?")
 
-    if n.lower in ["yes"]:
+    elif n.lower in ["yes"]:
         print("yes i know it hhhh")
