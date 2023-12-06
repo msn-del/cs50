@@ -2,7 +2,7 @@
 n = input("how many scores? ")
 scores = []
 i = 0
-for i in range (n):
+while i < n:
  score = input("score: ")
  scores.append(score)
 
