@@ -1,5 +1,5 @@
-
-n = input("how many scores? ")
+from cs50 import get_float
+n = get_float("how many scores? ")
 scores = []
 i = 0
 while i < n:
