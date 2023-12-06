@@ -3,7 +3,7 @@ n = get_int("how many scores? ")
 score = []
 i = 0
 for i in range (n):
- scores = get_int("score: ")
+ score = get_int("score: ")
 
-average = sum(scores) / n
+average = sum(score) / n
 print(f"average:  {average}")
