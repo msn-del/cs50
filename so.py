@@ -1,9 +1,9 @@
 from cs50 import get_string
 answer = get_string("are you gay? ")
-while answer != "yes" or "no":
+while answer.lower() != "yes" or "no":
     answer = get_string("are you gay? ")
 
-while answer == "yes" or "no":
+if answer == "yes" or "no":
       while answer.lower() in ["no"]:
                 answer = get_string("are you gay? ")
       if answer.lower() in ["yes"]:
