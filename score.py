@@ -5,5 +5,5 @@ i = 0
 for i in range (n):
  scores = get_int("score: ")
 
-average = sum(score) / n
+average = sum(scores) / n
 print(f"average:  {average}")
