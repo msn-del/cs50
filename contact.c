@@ -1,6 +1,5 @@
 #include<cs50.h>
 #include<string.h>
-void contact(void);
 int main (void)
 {
     int n = get_int("n: ");
