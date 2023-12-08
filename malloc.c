@@ -22,7 +22,6 @@ int main(void)
         num[i] = toupper(num[i]);
     }
     }
-    printf("n: %s\n", n);
     printf("num: %s\n", num);
     free(num);
 }
