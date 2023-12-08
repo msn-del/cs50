@@ -1,7 +1,4 @@
-#include<stdio.h>
-#include<ctype.h>
 #include<cs50.h>
-#include<stdlib.h>
 #include<string.h>
 void contact(void);
 int main (void)
@@ -13,11 +10,5 @@ int main (void)
     {
          name[i] = get_string("name: ");
          number[i] = get_int("number: ");
-         contact();
     }
-}
-void contact(void)
-{
-    printf("name: %s\n" name[i]);
-    printf("number: %i\n" number[i]);
 }
