@@ -3,7 +3,7 @@
 #include<cs50.h>
 #include<stdlib.h>
 #include<string.h>
-void contact.csv()
+void contact(void);
 int main (void)
 {
     int n = get_int("n: ");
@@ -13,10 +13,10 @@ int main (void)
     {
          name[i] = get_string("name: ");
          number[i] = get_int("number: ");
-         contact.csv()
+         contact();
     }
 }
-void contact.csv()
+void contact(void)
 {
     printf("name: %s\n" name[i]);
     printf("number: %i\n" number[i]);
