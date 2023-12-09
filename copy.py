@@ -1,8 +1,11 @@
 from cs50 import get_int
+from cs50 import get_string
+
 file_path = "contacter.py"
-order = input("do yo want to add something? ")
+
+order = get_string("do yo want to add something? ")
 n = get_int("how many contacts? ")
-if order in "add":
+if order = "add":
    for n in range(n):
        names = input("name: ")
        numbers = input("number:")
@@ -11,5 +14,6 @@ if order in "add":
           file.write(names + '\n')
           file.write("number: ")
           file.write(numbers + '\n')
-
+else:
+    print("syntase error")
 print(f"Data stored successfully in {file_path}.")
