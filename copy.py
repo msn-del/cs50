@@ -7,7 +7,7 @@ if order.lower() in ["add", "yes"]:
        for n in range(n):
            names = input("name: ")
            numbers = input("number:")
-           with open(contacter.py) as file:
+           with open(contacter.py, "w") as file:
                file.write("name: ")
                file.write(names + '\n')
                file.write("number: ")
