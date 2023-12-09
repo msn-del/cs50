@@ -4,7 +4,7 @@ from cs50 import get_string
 file_path = "contacter.py"
 
 order = get_string("do yo want to add something? ")
-if order.lower() in ["add"]:
+if order.lower() in ["add", "yes"]:
        n = get_int("how many contacts? ")
        for n in range(n):
            names = input("name: ")
@@ -14,6 +14,6 @@ if order.lower() in ["add"]:
                file.write(names + '\n')
                file.write("number: ")
                file.write(numbers + '\n')
+       print(f"Data stored successfully in {file_path}.")
 else:
     print("syntase error")
-print(f"Data stored successfully in {file_path}.")
