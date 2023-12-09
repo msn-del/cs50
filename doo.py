@@ -11,3 +11,7 @@ with open("data.csv", "r") as file:
              C += 1
         elif favorite == "Python":
              Python += 1
+
+print(f"Scratch, {Scratch}")
+print(f"C, {C}")
+print(f"Python, {Python}")
