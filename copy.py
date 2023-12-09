@@ -1,17 +1,14 @@
-
 order = input("do yo want to add something? ")
- = input("how many contacts? ")
+n = input("how many contacts? ")
 if order in "yes":
     i = 0
-    for number in range(n)
-    name = input("name: ")
-    number = input(number: ")
+    for number in range(n):
+        name = input("name: ")
+        number = input("number: ")
 
-# Specify the file path
-file_path = "contact"  # Change this to the desired file path and name
+file_path = "contact"
 
-# Open the file in write mode and write the user input
 with open(file_path, "w") as file:
-    file.write(user_input)
+    file.write(name, number_input)
 
 print(f"Data stored successfully in {file_path}.")
