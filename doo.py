@@ -5,7 +5,7 @@ with open("data.csv", "r") as file:
   Scratch, Python, C = 0, 0, 0
   for row in reader:
         favorite = row["language"]
-        if favorite == "scratch":
+        if favorite == "Scratch":
              Scratch += 1
         elif favorite == "C":
              C += 1
