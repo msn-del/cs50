@@ -12,5 +12,5 @@ with open("data.csv", "r") as file:
 def get_value(language):
     return conts[language]
 
-for favorite in sorted(conts, key=lambda language: conts[language], reverse=True):
+for favorite in sorted(conts, key=lambda problem: conts[problem]):
      print(f"{favorite}:{conts[favorite]}")
