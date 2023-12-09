@@ -10,7 +10,6 @@ if order.lower() in ["add", "yes"]:
               names = [ get_string("name: ") ]
               numbers = [get_int("number: ")]
               contacts = [names, numbers]
-
               with open(file_store, "w") as file:
                     file.write("contacts = \n")
                     file.write("\n".join(map(str, contacts)))
