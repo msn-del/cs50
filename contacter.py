@@ -1,3 +1,0 @@
-contacts = 
-molo
-17
