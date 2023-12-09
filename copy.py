@@ -8,6 +8,6 @@ if order in "yes":
 file_path = "contact"
 
 with open(file_path, "w") as file:
-    file.write(user_input)
+    file.write("{name}: name")
 
 print(f"Data stored successfully in {file_path}.")
