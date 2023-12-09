@@ -1,4 +1,11 @@
-user_input = input("Enter data to store in the file: ")
+
+order = input("do yo want to add something? ")
+ = input("how many contacts? ")
+if order in "yes":
+    i = 0
+    for number in range(n)
+    name = input("name: ")
+    number = input(number: ")
 
 # Specify the file path
 file_path = "contact"  # Change this to the desired file path and name
