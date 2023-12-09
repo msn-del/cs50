@@ -1,4 +1,5 @@
 import csv
+import from cs50
 
 with open("data.csv", "r") as file:
   reader = csv.DictReader(file)
