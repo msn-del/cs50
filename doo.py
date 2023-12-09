@@ -1,13 +1,13 @@
 import csv
 
 with open("data.csv", "r") as file:
-  reader = csv.reader(file)
+  reader = csv.DictReader(file)
   Scratch, Python, C = 0, 0, 0
   for row in reader:
-        favorite = row[1]
+        favorite = row["language"]
         if favorite == "scratch":
              Scratch += 1
-        if favorite == "C":
+        elif favorite == "C":
              C += 1
-        if favorite == "Python":
+        elif favorite == "Python":
              Python += 1
