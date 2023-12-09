@@ -8,8 +8,8 @@ if order.lower() in ["add", "yes"]:
        n = get_int("how many contacts? ")
        for n in range(n):
               i = 0
-              names[i] = get_string("name: ")
-              numbers[i] = get_int("number: ")
+              names = get_string("name: ")
+              numbers = get_int("number: ")
               contacts = [names[i], numbers[i]]
               i += 1
        with open(file_store, "w") as file:
