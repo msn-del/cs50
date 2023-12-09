@@ -5,7 +5,7 @@ file_path = "contacter.py"
 
 order = get_string("do yo want to add something? ")
 n = get_int("how many contacts? ")
-if order = "add":
+if order in ["add"]:
    for n in range(n):
        names = input("name: ")
        numbers = input("number:")
