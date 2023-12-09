@@ -5,4 +5,10 @@ with open("data.csv", "r") as file:
   conts = {}
   for row in reader:
         favorite = row["language"]
-        if favorite =
+        if favorite in conts:
+           conts[favorite] += 1
+        else:
+             conts[favorite] = 1
+
+for favorite in conts:
+     print(f"{favorite}:{ conts[favorite]}")
