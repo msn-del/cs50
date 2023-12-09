@@ -8,9 +8,8 @@ if order.lower() in ["add", "yes"]:
        for n in range(n):
             names = input("name: ")
             numbers = input("number: ")
+       for n in range(n):
             with open(file_store, "w") as file:
-                 old_data = [names]
-                 old_data = [numbers]
                  file.write("name: ")
                  file.write(names + '\n')
                  file.write("number: ")
