@@ -7,14 +7,13 @@ order = get_string("do yo want to add something? ")
 if order.lower() in ["add", "yes"]:
        n = get_int("how many contacts? ")
        for n in range(n):
-              i = 0
-              names[i] = [ get_string("name: ") ]
-              numbers[i] = [get_int("number: ")]
-              contacts = [names[i], numbers[i]]
-              i += 1
-       with open(file_store, "w") as file:
-              file.write("contacts = \n")
-              file.write("\n".join(map(str, contacts)))
+              names = [ get_string("name: ") ]
+              numbers = [get_int("number: ")]
+              contacts = [names, numbers]
+
+              with open(file_store, "w") as file:
+                    file.write("contacts = \n")
+                    file.write("\n".join(map(str, contacts)))
 
        print(f"Data stored successfully in {file_store}.")
 else:
