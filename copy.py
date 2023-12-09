@@ -6,7 +6,7 @@ if order in "add":
      names = input("name: ")
      numbers = input("number:")
      with open(file_path, "w") as file:
-        file.write("name: ", names)
-        file.write(f"numbers: ", numbers)
+        file.write(name )
+                  (names)
 
 print(f"Data stored successfully in {file_path}.")
