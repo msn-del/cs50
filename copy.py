@@ -8,8 +8,8 @@ if order in "add":
        numbers = input("number:")
        with open(file_path, "w") as file:
           file.write("name: ")
-          file.write(names)
+          file.write(names + '\n')
           file.write("number: ")
-          file.write(numbers)
+          file.write(numbers + '\n')
 
 print(f"Data stored successfully in {file_path}.")
