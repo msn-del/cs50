@@ -4,7 +4,7 @@ with open("data.csv", "r") as file:
   reader = csv.DictReader(file)
   conts = {}
   for row in reader:
-        favorite = row["language"]
+        favorite = row["problem"]
         if favorite in conts:
            conts[favorite] += 1
         else:
@@ -12,5 +12,5 @@ with open("data.csv", "r") as file:
 def get_value(language):
     return conts[language]
 
-for favorite in sorted(conts, key=lambda language: conts[language] reverse=True):
+for favorite in sorted(conts, key=lambda language: conts[language], reverse=True):
      print(f"{favorite}:{conts[favorite]}")
