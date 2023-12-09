@@ -8,7 +8,7 @@ if order.lower() in ["add", "yes"]:
        for n in range(n):
             names = input("name: ")
             numbers = input("number: ")
-            with open(file_store, ) as file:
+            with open(file_store, "w") as file:
                  file.write("name: ")
                  file.write(names + '\n')
                  file.write("number: ")
