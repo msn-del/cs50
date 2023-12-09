@@ -1,8 +1,7 @@
 order = input("do yo want to add something? ")
 n = input("how many contacts? ")
 if order in "yes":
-    i = 0
-    for number in range(n):
+    for number in [n]:
         name = input("name: ")
         number = input("number: ")
 
