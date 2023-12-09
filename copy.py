@@ -4,9 +4,9 @@ n = input("how many contacts? ")
 if order in "add":
    for n in [n]:
      names = input("name: ")
-     numbers = input("number:"end="")
+     numbers = input("number:")
      with open(file_path, "w") as file:
-         file.write(name)
-         file.write(number)
+        file.write("name: ", names)
+        file.write(f"numbers: ", numbers)
 
 print(f"Data stored successfully in {file_path}.")
