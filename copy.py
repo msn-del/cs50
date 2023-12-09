@@ -1,7 +1,6 @@
 from cs50 import get_int
 from cs50 import get_string
 file_store = "contacter.py"
-contacts = []
 order = get_string("do yo want to add something? ")
 if order.lower() in ["add", "yes"]:
        n = get_int("how many contacts? ")
