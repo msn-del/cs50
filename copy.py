@@ -22,9 +22,10 @@ if order in ["search"]:
       with open(file_store, "r") as file:
           search = csv.DictReader(file)
           for row in search:
-                if name == 0:
+                if name == contacts:
                     print("found")
                 else:
                     print("not found")
 else:
     print("syntase error")
+    
