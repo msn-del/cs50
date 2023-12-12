@@ -3,7 +3,7 @@ from cs50 import get_string
 import csv
 
 file_store = "contacter.py"
-
+contacts = {}
 order = get_string("do yo want to add or search for someone? ")
 if order.lower() in ["add"]:
        n = get_int("how many contacts? ")
