@@ -19,7 +19,7 @@ if order.lower() in ["add"]:
 if order in ["search"]:
       name = get_string("wich one? ")
       with open(file_store, "a") as file:
-          if :
+          if name in file_store:
               print("found")
           else:
               print("not found")
