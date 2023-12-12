@@ -1,16 +1,15 @@
-
-contacts = 
+contacts =
 salah eddine
 610376005
-contacts = 
+contacts =
 karima
 674967244
-contacts = 
+contacts =
 nassr eddinr
 619179886
-contacts = 
+contacts =
 nassr ,
 531443334
-contacts = 
-salah 
+contacts =
+salah
 619981459
