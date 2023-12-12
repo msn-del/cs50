@@ -21,11 +21,11 @@ if order in ["search"]:
       name = get_string("wich one? ")
       with open(file_store, "r") as file:
           search = csv.DictReader(file)
-          for row in search:
+          for line in search:
                 if name == contacts:
                     print("found")
                 else:
                     print("not found")
 else:
     print("syntase error")
-    
+
