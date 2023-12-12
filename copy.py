@@ -16,8 +16,10 @@ if order.lower() in ["add"]:
 
        print(f"Data stored successfully in {file_store}.")
 elif order.lower() in ["search"]:
+      contacts = names, numbers
       name = get_string("wich one? ")
       with open(file_store, "a") as file:
+          contacts = names, numbers
           if name == contacts:
               print("found")
           else:
