@@ -1,7 +1,15 @@
 from cs50 import get_int
 from cs50 import get_string
 import csv
-def search();
+def search():
+      name = get_string("wich one? ")
+      with open(file_store, "r") as file:
+          search = csv.DictReader(file)
+          for line in search:
+                if name == names :
+                    print("found")
+                else:
+                    print("not found")
 
 file_store = "contacter.py"
 contacts = {}
@@ -17,15 +25,8 @@ if order.lower() in ["add"]:
                     file.write("\n".join(map(str, contacts)))
 
        print(f"Data stored successfully in {file_store}.")
-def search ()
 if order in ["search"]:
-      name = get_string("wich one? ")
-      with open(file_store, "r") as file:
-          search = csv.DictReader(file)
-          for line in search:
-                if name == :
-                    print("found")
-                else:
-                    print("not found")
+         def search ():
+
 else:
     print("syntase error")
