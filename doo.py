@@ -1,16 +1,8 @@
-import csv
+from cs50 import SQL
 
-with open("data.csv", "r") as file:
-  reader = csv.DictReader(file)
-  conts = {}
-  for row in reader:
-        favorite = row["problem"]
-        if favorite in conts:
-           conts[favorite] += 1
-        else:
-             conts[favorite] = 1
-def get_value(language):
-    return conts[language]
+db = SQL("sqlite:///data.db")
 
-for favorite in sorted(conts, key=lambda problem: conts[problem]):
-     print(f"{favorite}:{conts[favorite]}")
+data = input("what's the problem: ")
+rows = db.execute("SELECT CONT(*) AS n WHERE problem = 'Mario'")
+for row in rows:
+    print(row["n"])
