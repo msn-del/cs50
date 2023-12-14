@@ -14,7 +14,7 @@ if order.lower() in ["add"]:
               numbers = get_int("number: ")
               contacts = names, numbers
               with open(file_store, "a") as file:
-                    file.write("\ncontacts = \n")
+                    file.write("\ncontacts: \n")
                     file.write("\n".join(map(str, contacts)))
 
        print(f"Data stored successfully in {file_store}.")
@@ -23,7 +23,7 @@ if order.lower() in ["add"]:
 elif order.lower() in ["search"]:
        name = get_string("wich one? ")
        with open(file_store, "r") as file:
-              for line in file_store:
+              for line in contacts:
                   if name in file_store:
                     print("found")
                   else:
