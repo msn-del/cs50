@@ -24,7 +24,7 @@ elif order.lower() in ["search"]:
            name = get_string("wich one? ")
            with open(file_store, "r") as file:
                 search = csv.DictReader(file)
-                if name in contacts:
+                if name in contacts{}:
                     print("found")
                 else:
                     print("not found")
