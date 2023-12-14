@@ -19,12 +19,11 @@ if order.lower() in ["add"]:
 
 
 if order.lower in ["search"]:
-      def search():
            name = get_string("wich one? ")
            with open(file_store, "r") as file:
-              search = csv.DictReader(file)
-              for line in search:
-                   if name == names :
-                      print("found")
+                search = csv.DictReader(file)
+                for line in search:
+                     if name == names :
+                        print("found")
 else:
    print("not found")
