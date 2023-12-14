@@ -25,8 +25,5 @@ if order.lower() in ["add"]:
                     file.write("\n".join(map(str, contacts)))
 
        print(f"Data stored successfully in {file_store}.")
-if order in ["search"]:
+elif order in ["search"]:
          def search ():
-
-else:
-    print("syntase error")
