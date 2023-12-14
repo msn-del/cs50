@@ -25,7 +25,7 @@ elif order.lower() in ["search"]:
            with open(file_store, "r") as file:
                  search = csv.DictReader(file)
                  for line in file_store:
-                      if name in search:
+                      if name in file_store:
                          print("found")
                       else:
                          print("not found")
