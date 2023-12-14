@@ -23,11 +23,11 @@ if order.lower() in ["add"]:
 elif order.lower() in ["search"]:
        name = get_string("wich one? ")
        with open(file_store, "r") as file:
-              for line in contacts:
-                  if name in file_store:
-                    print("found")
-                  else:
-                    print("not found")
+              for line in file_store:
+                   if name in :
+                       print("found")
+                   else:
+                       print("not found")
 
 else:
       print("syntaxe error")
