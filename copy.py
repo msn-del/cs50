@@ -24,10 +24,11 @@ elif order.lower() in ["search"]:
            name = get_string("wich one?")
            with open(file_store, "r") as file:
                  search = csv.DictReader(file)
-                 if name in search:
-                    print("found")
-                 else:
-                    print("not found")
+                 for line in file_store:
+                      if name in search:
+                         print("found")
+                      else:
+                         print("not found")
 
 else:
       print("syntaxe error")
