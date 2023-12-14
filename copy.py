@@ -18,7 +18,7 @@ if order.lower() in ["add"]:
        print(f"Data stored successfully in {file_store}.")
 
 
-if order.lower() = ["search"]
+if order.lower in ["search"]:
       def search():
            name = get_string("wich one? ")
            with open(file_store, "r") as file:
