@@ -4,7 +4,9 @@ import csv
 
 file_store = "contacter.py"
 contacts = {}
+
 order = get_string("do yo want to add or search for someone? ")
+
 if order.lower() in ["add"]:
        n = get_int("how many contacts? ")
        for n in range(n):
@@ -18,7 +20,7 @@ if order.lower() in ["add"]:
        print(f"Data stored successfully in {file_store}.")
 
 
-elif order.lower in ["search"]:
+elif order.lower() in ["search"]:
            name = get_string("wich one? ")
            with open(file_store, "r") as file:
                 search = csv.DictReader(file)
