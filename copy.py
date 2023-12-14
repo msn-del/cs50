@@ -3,7 +3,7 @@ from cs50 import get_string
 import csv
 
 file_store = "contacter.py"
-contacts = {}
+contacts = []
 order = get_string("do yo want to add or search for someone? ")
 
 if order.lower() in ["add"]:
@@ -23,7 +23,7 @@ elif order.lower() in ["search"]:
        name = get_string("wich one? ")
        with open(file_store, "r") as file:
               for line in file_store:
-                   if name in names:
+                   if name in contacts:
                        print("found")
                    else:
                        print("not found")
