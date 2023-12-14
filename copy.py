@@ -4,7 +4,8 @@ import csv
 
 file_store = "contacter.py"
 contacts = {}
-
+names;
+numbers;
 order = get_string("do yo want to add or search for someone? ")
 
 if order.lower() in ["add"]:
