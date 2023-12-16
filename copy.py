@@ -2,7 +2,7 @@ from cs50 import get_int
 from cs50 import get_string
 import csv
 
-file_store = "contacter.py"
+file_store = "contacter.csv"
 contacts = []
 order = get_string("do yo want to add or search for someone? ")
 
