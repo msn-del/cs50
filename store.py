@@ -7,8 +7,9 @@ def write():
          for n in range(n):
               names =  get_string("name: ")
               numbers = get_int("number: ")
-              contacts = [names, numbers]
+              contact = [names, numbers]
               with open(file_store, "a") as file:
+                   contacts = contact
                    file.write("\ncontacts: \n")
                    file.write("\n".join(map(str, contacts)))
          print(f"Data stored successfully in {file_store}")
