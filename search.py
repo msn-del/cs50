@@ -1,5 +1,5 @@
 from cs50 import get_string
-from store 
+from store import contact
 import csv
 file_store = "contacter.csv"
 
