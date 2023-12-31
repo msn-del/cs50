@@ -1,3 +1,4 @@
+from cs50 import get_int
 file_store = "contacter.csv"
 
 #question for the user
@@ -5,8 +6,8 @@ order = input("do yo want to add or search for someone? ")
 
 #add people
 if order.lower() in ["add"]:
-         n = input("how many contacts? ")
-         for n in range(n):
+         n = get_int("how many contacts? ")
+         for variable in range(n):
               names =  input("name: ")
               numbers = input("number: ")
               contact = [names, numbers]
@@ -17,7 +18,7 @@ if order.lower() in ["add"]:
 
 #search for someone
 elif order.lower() in ["search"]:
-          name = input("wich one? ")
+          name = input("who? ")
           with open(file_store, "r") as file:
                   if name in file.read():
                       print(f"found")
