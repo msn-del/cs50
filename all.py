@@ -7,23 +7,15 @@ order = get_string("do yo want to add or search for someone? ")
 
 #add people
 if order.lower() in ["add"]:
-
-
          n = get_int("how many contacts? ")
          for n in range(n):
               names =  get_string("name: ")
               numbers = get_int("number: ")
-              contacts = [names, numbers]
-              with open(file_store, 'wb') as file:
-                  pickle.dump(contacts, file)
-            with open(file_store, 'rb') as file:
-                 loaded_list = pickle.load(file)
-
-
-
-
-
-
+              contact = [names, numbers]
+              with open(file_store, "a") as file:
+                   file.write("\ncontact: \n")
+                   file.write("\n".join(map(str, contact)))
+         print(f"Data stored successfully in {file_store}")
 
 #search for someone
 elif order.lower() in ["search"]:
