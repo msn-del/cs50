@@ -13,6 +13,7 @@ if order.lower() in ["add"]:
          for n in range(n):
               names =  get_string("name: ")
               numbers = get_int("number: ")
+              contacts = [names, numbers]
               with open(file_store, 'wb') as file:
                   pickle.dump(contacts, file)
             with open(file_store, 'rb') as file:
