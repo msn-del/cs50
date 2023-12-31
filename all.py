@@ -14,6 +14,7 @@ if order.lower() in ["add"]:
               with open(file_store, "a") as file:
                    file.write("\ncontact: \n")
                    file.write("\n".join(map(str, contact)))
+                   contact = [names, numbers]
          print(f"Data stored successfully in {file_store}")
 
 #search for someone
