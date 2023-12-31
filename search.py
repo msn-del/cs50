@@ -7,6 +7,6 @@ def find():
        name = get_string("wich one? ")
        with open(file_store, "r") as file:
                 if name in file.read():
-                     print(contacts)
+                    (SELECT contact WHERE name == names)
                 else:
                     print(f"not found")

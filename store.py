@@ -13,4 +13,5 @@ def write():
               with open(file_store, "a") as file:
                    file.write("\ncontact: \n")
                    file.write("\n".join(map(str, contact)))
+              l[contacts] = [contact]
          print(f"Data stored successfully in {file_store}")
