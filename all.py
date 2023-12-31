@@ -1,4 +1,5 @@
 from cs50 import get_int
+from cs50 import SQL
 file_store = "contacter.csv"
 
 #question for the user
