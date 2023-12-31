@@ -4,13 +4,13 @@ import csv
 file_store = "contacter.csv"
 
 def write():
+         l[contacts] = []
          n = get_int("how many contacts? ")
          for n in range(n):
               names =  get_string("name: ")
               numbers = get_int("number: ")
               contact = [names, numbers]
-              contacts = {contact}
               with open(file_store, "a") as file:
-                   file.write("\ncontacts: \n")
-                   file.write("\n".join(map(str, contacts)))
+                   file.write("\ncontact: \n")
+                   file.write("\n".join(map(str, contact)))
          print(f"Data stored successfully in {file_store}")
