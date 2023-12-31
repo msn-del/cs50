@@ -19,10 +19,8 @@ if order.lower() in ["add"]:
 #search for someone
 elif order.lower() in ["search"]:
           name = input("who? ")
-          line = lines
-          for line in range(lines):
               with open(file_store, "r") as file:
-                  if :
+                  if name in file.read():
                       print(f"found")
                   else:
                       print(f"not found")
