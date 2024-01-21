@@ -3,10 +3,10 @@ from cs50 import get_int
 
 answer = get_string("do you want to open this app?")
 if answer in ["ok"]:
-      password = get_int("password: ")
-      if password in ["4268"]:
-         print("opened succefully")
+      password = get_string("password: ")
+      if password in ["1234"]:
+           print("opened succefully")
       else:
-         print("wrong password")
+           print("wrong password")
 else:
    print("syntaxe error")
