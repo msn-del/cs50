@@ -1,6 +1,4 @@
 from cs50 import get_string
-from cs50 import get_int
-
 answer = get_string("do you want to open this app?")
 if answer in ["ok"]:
       password = get_string("password: ")
