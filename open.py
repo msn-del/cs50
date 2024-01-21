@@ -6,3 +6,7 @@ question = get_string("do you want to open this app?")
       password = get_int("password: ")
       if password in ["4268"]:
          print("opened succefully")
+      else:
+         print("wrong password")
+  else:
+   print("syntaxe error")
